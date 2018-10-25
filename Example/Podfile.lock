@@ -1,0 +1,16 @@
+PODS:
+  - AvailableHapticFeedback (1.0.0)
+
+DEPENDENCIES:
+  - AvailableHapticFeedback (from `..`)
+
+EXTERNAL SOURCES:
+  AvailableHapticFeedback:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  AvailableHapticFeedback: d225161b9639591c9527947ad102c1540cb04080
+
+PODFILE CHECKSUM: 90f98de9794b27f8b40d91048a845219d23b4eca
+
+COCOAPODS: 1.5.3
