@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
   s.name         = "AvailableHapticFeedback"
   s.version      = "1.0.0"
-  s.summary      = "Wrapper for UIFeedbackGenerator that compiles on iOS 9."
+  s.summary      = "Unified haptic feedback interface for all subclasses of UIFeedbackGenerator, with availability checks for iOS 9."
 
   s.homepage     = "https://github.com/yonat/AvailableHapticFeedback"
 

@@ -7,21 +7,21 @@
 [![Platform](https://img.shields.io/cocoapods/p/AvailableHapticFeedback.svg?style=flat)](http://cocoapods.org/pods/AvailableHapticFeedback)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-Wrapper for `UIFeedbackGenerator` that compiles on iOS 9.
+Unified haptic feedback interface for all subclasses of `UIFeedbackGenerator`, with availability checks for iOS 9.
 
 ## Usage
 
 ```swift
-var hapticFeedback = AvailableHapticFeedback(style: .selection)
+var haptic = AvailableHapticFeedback(style: .selection)
 
-hapticFeedback.prepare() // load taptic engine (optional)
+haptic.prepare() // load taptic engine (optional)
 
-hapticFeedback.generateFeedback() // call to generate haptic feedback
+haptic.generateFeedback() // call to generate haptic feedback
 
-hapticFeedback.end() // unload taptic engine (optional)
+haptic.end() // unload taptic engine (optional)
 ```
 
-To learn about the different haptic feedback styles, see [Apple's guidelines for feedback](https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/feedback/).
+To learn about the different haptic feedback styles, see [Apple's guidelines for feedback](https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/feedback/) or run the Example app.
 
 ## Installation
 
