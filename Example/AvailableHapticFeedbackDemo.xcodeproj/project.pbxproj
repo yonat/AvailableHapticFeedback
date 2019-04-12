@@ -223,7 +223,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\t\tif which swiftformat >/dev/null; then\n\t\t  swiftformat \"${SRCROOT}/../Sources\"\n\t\t  swiftformat --config \"${SRCROOT}/../Sources/.swiftformat\" \"${SRCROOT}\"\n\t\telse\n\t\t  echo \"warning: SwiftFormat not installed, execute 'brew install swiftformat'\"\n\t\tfi\n";
+			shellScript = "\t\tif which swiftformat >/dev/null; then\n\t\t  swiftformat --swiftversion ${SWIFT_VERSION} \"${SRCROOT}/../Sources\"\n\t\t  swiftformat --swiftversion ${SWIFT_VERSION} --config \"${SRCROOT}/../Sources/.swiftformat\" \"${SRCROOT}\"\n\t\telse\n\t\t  echo \"warning: SwiftFormat not installed, execute 'brew install swiftformat'\"\n\t\tfi\n";
 			showEnvVarsInLog = 0;
 		};
 		9884B89D59E98426BE475D57 /* [CP] Check Pods Manifest.lock */ = {
