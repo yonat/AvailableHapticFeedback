@@ -1,16 +1,37 @@
 PODS:
   - AvailableHapticFeedback (1.0.0)
+  - SwiftFormat/CLI (0.40.8)
+  - SwiftLint (0.31.0)
+  - SwiftQuality (1.0.0):
+    - SwiftFormat/CLI (= 0.40.8)
+    - SwiftLint (= 0.31.0)
 
 DEPENDENCIES:
   - AvailableHapticFeedback (from `..`)
+  - SwiftQuality (from `https://github.com/yonat/SwiftQuality`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftFormat
+    - SwiftLint
 
 EXTERNAL SOURCES:
   AvailableHapticFeedback:
     :path: ".."
+  SwiftQuality:
+    :git: https://github.com/yonat/SwiftQuality
+
+CHECKOUT OPTIONS:
+  SwiftQuality:
+    :commit: e08572a726ab3178041bf37966db7dce8900c1d2
+    :git: https://github.com/yonat/SwiftQuality
 
 SPEC CHECKSUMS:
-  AvailableHapticFeedback: d225161b9639591c9527947ad102c1540cb04080
+  AvailableHapticFeedback: 308c74ee49f19274e517a6c341b112560ddc052a
+  SwiftFormat: d9e5ca1aed735164fe9d26510ec508ddb8a93598
+  SwiftLint: 7a0227733d786395817373b2d0ca799fd0093ff3
+  SwiftQuality: 7e8e9783387fc64d0ad6f8a315507c9c0013dee8
 
-PODFILE CHECKSUM: 90f98de9794b27f8b40d91048a845219d23b4eca
+PODFILE CHECKSUM: dd12a47bdc24126723cd9c99dca9348e3fb6777c
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1
