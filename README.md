@@ -31,10 +31,13 @@ To learn about the different haptic feedback styles, see [Apple's guidelines for
 pod 'AvailableHapticFeedback'
 ```
 
+### Swift Package Manager:
 
-### Manually:
-
-Copy `Sources/AvailableHapticFeedback.swift` to your Xcode project.
+```swift
+dependencies: [
+    .package(url: "https://github.com/yonat/AvailableHapticFeedback", from: "1.0.2")
+]
+```
 
 ## Meta
 
