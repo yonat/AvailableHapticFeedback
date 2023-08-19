@@ -27,11 +27,11 @@ CHECKOUT OPTIONS:
     :git: https://github.com/yonat/SwiftQuality
 
 SPEC CHECKSUMS:
-  AvailableHapticFeedback: 87d084667efd97d3db1cc194bf442af9ab886478
+  AvailableHapticFeedback: 9db024e3fe26463dc09447a05535eaac97b0d937
   SwiftFormat: 6b67b6e7fe73d664f0cbb4f13721f130462c86a5
   SwiftLint: fed9c66336e41fc74dc48a73678380718f0c8b0e
   SwiftQuality: 9dddd6752df12ae7ed3b1eed24b6fc42d75724cf
 
-PODFILE CHECKSUM: d37d8f88b264617c0da0f929e42cb772d915394f
+PODFILE CHECKSUM: 83745055c122dc81704f195c90f3b19c66cd1122
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.12.1
