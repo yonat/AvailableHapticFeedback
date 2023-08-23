@@ -35,7 +35,7 @@ pod 'AvailableHapticFeedback'
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/yonat/AvailableHapticFeedback", from: "1.0.3")
+    .package(url: "https://github.com/yonat/AvailableHapticFeedback", from: "1.0.4")
 ]
 ```
 
